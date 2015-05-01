@@ -24,7 +24,7 @@ HashMap.prototype.get = function(key) {
 };
 
 HashMap.prototype.set = function(key, value) {
-  var keyIndex = _.findIndex(this._keys, key, function(currentKey) {
+  var keyIndex = _.findIndex(this._keys, function(currentKey) {
     return _.isEqual(currentKey, key);
   });
 
@@ -41,7 +41,7 @@ HashMap.prototype.clear = function(key) {
     this._keys = [];
     this._data = [];
   } else {
-    var keyIndex = _.findIndex(this._keys, key, function(currentKey) {
+    var keyIndex = _.findIndex(this._keys, function(currentKey) {
       return _.isEqual(currentKey, key);
     });
 
