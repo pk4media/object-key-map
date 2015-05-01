@@ -1,0 +1,30 @@
+{
+  "name": "object-key-map",
+  "version": "1.0.0",
+  "description": "Map implementation based on object values, rather than references",
+  "main": "index.js",
+  "files": [
+    "es6/index.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pk4media/object-key-map.git"
+  },
+  "keywords": [
+    "map",
+    "object",
+    "values"
+  ],
+  "author": "David Negstad <davidn@pk4media.com> (https://github.com/dnegstad)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pk4media/object-key-map/issues"
+  },
+  "homepage": "https://github.com/pk4media/object-key-map#readme",
+  "dependencies": {
+    "lodash": "^3.8.0"
+  }
+}
